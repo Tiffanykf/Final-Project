@@ -1,0 +1,28 @@
+h2 {
+  color: #335c67;
+}
+
+h3 {
+  color: #335c67;
+}
+
+#welcomeInstructions {
+  display: block; /* Show by default */
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  max-width: 800px;
+  background: #eff1f3; 
+  padding: 30px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#planningDetails{
+  font-size: 12px;
+}
