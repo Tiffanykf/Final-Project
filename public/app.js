@@ -37,7 +37,7 @@ window.addEventListener('load', () => {
 
           if (storyText) {
             // If story-text exists, toggle visibility
-            const isVisible = storyText.getAttribute("visible");
+            let isVisible = storyText.getAttribute("visible");
             storyText.setAttribute("visible", !isVisible); // Toggle visibility
 
             // Align with the camera when made visible
