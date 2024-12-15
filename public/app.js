@@ -76,7 +76,6 @@ window.addEventListener('load', () => {
       },
     });
 
-    //Form submission
       let cursor = document.querySelector("#cursorSphere");
 
       // Add event listeners to clickable objects
@@ -90,6 +89,7 @@ window.addEventListener('load', () => {
         });
       });
 
+      //Form submission
       document
       .getElementById("storyForm")
       .addEventListener("submit", async (event) => {
