@@ -119,7 +119,7 @@ window.addEventListener('load', () => {
               document.getElementById("storyForm").style.display = "none";
               document.getElementById("storyInput").value = ""; // Clear the input
               document.getElementById("storyAuthor").value = "";
-              document.getAnimations("storyPlace").value = "";
+              document.getElementById("storyPlace").value = "";
             } else {
               alert("Failed to submit the story. Please try again.");
             }
